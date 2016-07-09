@@ -1,0 +1,9 @@
+.idea
+.sass-cache
+scripts
+vendor
+libraries
+modules/contrib
+modules/developer
+themes/contrib
+settings/local.settings.php
