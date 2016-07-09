@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # match your install profile name
-PROJECT=ts_build
+PROJECT=draft_league
 
 # pantheon, acquia, generic
 HOSTTYPE=pantheon
 
-SITENAME="Site Name"
+SITENAME="Draft League"
 
 # Copy the git repository URL from the Pantheon dashboard.
 GITREPO=
