@@ -1,5 +1,5 @@
-name = ThinkShout Project
-description = Description of ThinkShout Project
+name = Draft League
+description = Site for tracking draft leagues
 core = 7.x
 
 ; Core
@@ -38,6 +38,9 @@ dependencies[] = module_filter
 dependencies[] = navbar
 dependencies[] = navbar_flush_cache
 dependencies[] = pathauto
+dependencies[] = redhen
+dependencies[] = redhen_contact
+dependencies[] = redhen_fields
 dependencies[] = redis
 dependencies[] = redirect
 dependencies[] = strongarm

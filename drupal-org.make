@@ -94,6 +94,10 @@ projects[redis][subdir] = "contrib"
 ;projects[redirect][version] = ""
 projects[redirect][subdir] = "contrib"
 
+; redhen
+;projects[redhen][version] = ""
+projects[redhen][subdir] = "contrib"
+
 ; strongarm requires ctools
 ;projects[strongarm][version] = ""
 projects[strongarm][subdir] = "contrib"
