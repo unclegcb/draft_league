@@ -10,6 +10,10 @@ core = 7.x
 ; Contrib Modules
 ;-----------------------------------------
 
+; admin_menu
+; projects[admin_menu][version] = ""
+projects[admin_menu][subdir] = "contrib"
+
 ; admin_views
 ; projects[admin_views][version] = ""
 projects[admin_views][subdir] = "contrib"
@@ -113,6 +117,10 @@ projects[token][subdir] = "contrib"
 ; views
 ;projects[views][version] = ""
 projects[views][subdir] = "contrib"
+
+; views_bulk_operations
+;projects[views_bulk_operations][version] = ""
+projects[views_bulk_operations][subdir] = "contrib"
 
 ;-----------------------------------------
 ; Patched Contrib Modules
