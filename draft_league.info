@@ -19,7 +19,6 @@ dependencies[] = taxonomy
 ; Contrib
 dependencies[] = admin_menu
 dependencies[] = admin_views
-dependencies[] = bean
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = ctools
@@ -29,14 +28,12 @@ dependencies[] = entitycache
 dependencies[] = entityreference
 dependencies[] = features
 dependencies[] = globalredirect
-dependencies[] = googleanalytics
 dependencies[] = honeypot
 dependencies[] = jquery_update
 dependencies[] = libraries
 dependencies[] = link
 dependencies[] = linkit
 dependencies[] = menu_block
-dependencies[] = metatag
 dependencies[] = module_filter
 dependencies[] = navbar
 dependencies[] = navbar_flush_cache
@@ -44,19 +41,13 @@ dependencies[] = pathauto
 dependencies[] = redis
 dependencies[] = redirect
 dependencies[] = strongarm
-dependencies[] = smart_trim
 dependencies[] = title
 dependencies[] = token
 dependencies[] = views
 dependencies[] = views_ui
-dependencies[] = xmlsitemap
 
 ; Devel
-dependencies[] = coffee
 dependencies[] = devel
 dependencies[] = diff
-dependencies[] = migrate
-dependencies[] = migrate_ui
-dependencies[] = reroute_email
 
 files[] = draft_league.profile

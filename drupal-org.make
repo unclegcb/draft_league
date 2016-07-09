@@ -14,10 +14,6 @@ core = 7.x
 ; projects[admin_views][version] = ""
 projects[admin_views][subdir] = "contrib"
 
-; bean requires ctools, entity
-;projects[bean][version] = ""
-projects[bean][subdir] = "contrib"
-
 ; context requires ctools 1.7+ (jquery_ui & admin recommended)
 ;projects[context][version] = ""
 projects[context][subdir] = "contrib"
@@ -50,10 +46,6 @@ projects[features][subdir] = "contrib"
 ;projects[globalredirect][version] = ""
 projects[globalredirect][subdir] = "contrib"
 
-; google_analytics
-;projects[google_analytics][version] = ""
-projects[google_analytics][subdir] = "contrib"
-
 ; honeypot
 ;projects[honeypot][version] = ""
 projects[honeypot][subdir] = "contrib"
@@ -77,10 +69,6 @@ projects[linkit][subdir] = contrib
 ; menu_block
 ;projects[menu_block][version] = ""
 projects[menu_block][subdir] = "contrib"
-
-; metatag
-;projects[metatag][version] = ""
-projects[metatag][subdir] = "contrib"
 
 ; module_filter
 ;projects[module_filter][version] = ""
@@ -110,10 +98,6 @@ projects[redirect][subdir] = "contrib"
 ;projects[strongarm][version] = ""
 projects[strongarm][subdir] = "contrib"
 
-; smart_trim
-projects[smart_trim][version] = ""
-projects[smart_trim][subdir] = contrib
-
 ; title
 ;projects[title][version] = ""
 projects[title][subdir] = "contrib"
@@ -126,11 +110,6 @@ projects[token][subdir] = "contrib"
 ;projects[views][version] = ""
 projects[views][subdir] = "contrib"
 
-; xmlsitemap
-;projects[xmlsitemap][version] = ""
-projects[xmlsitemap][subdir] = "contrib"
-
-
 ;-----------------------------------------
 ; Patched Contrib Modules
 ;-----------------------------------------
@@ -140,10 +119,6 @@ projects[xmlsitemap][subdir] = "contrib"
 ; Developer tools
 ;-----------------------------------------
 
-; coffee
-;projects[coffee][version] = ""
-projects[coffee][subdir] = "developer"
-
 ; devel
 ;projects[devel][version] = ""
 projects[devel][subdir] = "developer"
@@ -151,22 +126,6 @@ projects[devel][subdir] = "developer"
 ; diff
 ;projects[diff][version] = ""
 projects[diff][subdir] = "developer"
-
-; migrate
-;projects[migrate][version] = ""
-projects[migrate][subdir] = "developer"
-
-; reroute_email
-;projects[reroute_email][version] = ""
-projects[reroute_email][subdir] = "developer"
-
-; ts_content
-projects[ts_content][download][type] = git
-projects[ts_content][type] = "module"
-projects[ts_content][download][url] = git@github.com:thinkshout/ts_content.git
-projects[ts_content][subdir] = "developer"
-;projects[ts_content][revision] = "1b41485"
-
 
 ;-----------------------------------------
 ; Libraries
